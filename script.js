@@ -119,6 +119,7 @@ let score = 0;
 
 // Function to start the quiz
 function startQuiz() {
+    console.log("Start quiz function called");
     const username = usernameInput.value.trim();
     if (username !== "") {
         // Store username in localStorage
